@@ -1,0 +1,440 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+    font-family: "cwTeXMing", "微軟正黑體", serif, Helvetica;
+    letter-spacing: 3px;
+    line-height: 38px;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container main {
+    position: relative;
+    border: 10px double #000;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    align-items: center;
+}
+
+.container main h1, .container main h3 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.container main h1 {
+    color: #351B06;
+    font-size: 3rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    line-height: 50px;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .container main h1 {
+        white-space: nowrap;
+        font-size: 2.4rem;
+    }
+}
+
+.container main h2 {
+    text-align: left;
+}
+
+.container main h3 {
+    width: 60%;
+    margin: 5% auto 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container main h3 {
+        width: 90%;
+    }
+}
+
+.container main .line {
+    border-bottom: 3px solid black;
+    width: 70%;
+    margin: auto;
+}
+
+.container main #cover .cover_img {
+    display: flex;
+    text-align: center;
+    justify-content: between-around;
+}
+
+.container main #cover .cover_img .face {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.container main #cover .cover_img .face img {
+    width: 100%;
+    max-width: 250px;
+    animation: block 2s;
+    display: inline-block;
+}
+
+@keyframes block {
+    from {
+        width: 50%;
+        opacity: 0.1;
+        transform: scale(0.5);
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container main #section .flex {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .container main #section .flex {
+        display: flex;
+    }
+}
+
+.container main #section .flex .face {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container main #section .flex .face {
+        display: none;
+    }
+}
+
+.container main #section .flex .issue {
+    width: 80%;
+    text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+    .container main #section .flex .issue {
+        width: 100%;
+    }
+}
+
+.container main #section_list .flex {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .container main #section_list .flex {
+        display: block;
+    }
+}
+
+.container main .btn {
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 130px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container main .btn:hover {
+    border: 2px solid #000;
+    background-color: black;
+    color: white;
+    animation: hover 1s infinite;
+}
+
+@keyframes hover {
+    0% {
+        width: 130px;
+    }
+    50% {
+        width: 140px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 130px;
+    }
+}
+
+.layout {
+    display: flex;
+    margin: auto;
+    background-color: #eee;
+}
+
+@media screen and (max-width: 500px) {
+    .layout {
+        display: block;
+    }
+}
+
+.layout .presd {
+    width: 30%;
+    padding-left: 10px;
+    position: relative;
+}
+
+.layout .presd img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .layout .presd {
+        display: none;
+    }
+}
+
+.layout .whoru {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .layout .whoru {
+        width: 80%;
+    }
+}
+
+.layout .chart {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.layout .chart img {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .layout .chart {
+        width: 100%;
+        padding: 5%;
+    }
+}
+
+.layout .block {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 25%;
+    height: 230px;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    transition: 0.5s;
+    position: relative;
+}
+
+@media screen and (max-width: 760px) {
+    .layout .block {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .layout .block {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.layout .block p {
+    margin: auto;
+    align-items: center;
+}
+
+.layout .block #ans1, .layout .block #ans2, .layout .block #ans3 {
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.layout .block img {
+    width: 65px;
+    top: 0;
+    left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .layout .block img {
+        display: none;
+    }
+}
+
+.layout .block:hover {
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+
+@media screen and (max-width: 500px) {
+    .layout .block:hover:hover {
+        width: 95%;
+    }
+}
+
+#result {
+    border-bottom: 10px black;
+}
+
+#section_list .block {
+    display: block;
+}
+
+hr.hr {
+    width: 80%;
+    border-top: 2px solid;
+}
+
+.box {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.box img {
+    max-width: 119px;
+    box-sizing: border-box;
+}
+
+.box h4 {
+    text-align: left;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.box .light {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .box .face {
+        display: none;
+    }
+}
+
+.box .source {
+    border-radius: 10px;
+    display: inline-flex;
+    margin-top: 10px;
+    padding: 5px 10px;
+    top: 30px;
+    right: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px black;
+}
+
+.box .source .text p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .box .source {
+        display: block;
+    }
+    .box .source p {
+        font-size: 1rem;
+        line-height: 26px;
+        margin: 0px;
+    }
+}
+
+.box p .bigfont {
+    font-size: 2.6rem;
+    margin-right: 3px;
+}
+
+.box .source:hover {
+    box-shadow: none;
+    background-color: #e29d0e;
+    color: white;
+}
+
+#section_list h1:nth-child(n+2) {
+    display: none;
+}
+
+#news_btn {
+    margin-top: 5%;
+}
+
+.select {
+    border: 5px double black !important;
+    background-color: #fff9f0;
+}
+
+.select::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    content: "\f00c";
+    color: #ff1665;
+    position: absolute;
+    right: 10px;
+}
+
+.fab {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid;
+    padding: 6px 8px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.fab:hover {
+    background-color: #351B06;
+    color: white;
+}
+
+.fab::after {
+    content: "分享";
+}
+
+@media screen and (max-width: 500px) {
+    .fab::after {
+        display: none;
+    }
+}
