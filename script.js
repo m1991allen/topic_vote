@@ -460,7 +460,7 @@ function show_topic_result() {
                 .replace("{{slogan}}", item.slogan)
                 .replace("{{name}}", item.name)
             ;
-    } else if (countA < countB && countB > countC) {
+    } else if (countB > countA && countB > countC) {
         var item = topic.result[1];
         var html_item =
             html_topic_result.replace("{{path}}", item.path)
@@ -485,7 +485,7 @@ function show_topic_result() {
     var dataPie = {
         datasets: [{
             data: [countA, countB, countC],
-            backgroundColor: ["rgba(1,87,155,1)", "rgba(0,200,83,1)", "rgba(30,144,255,1)"]
+            backgroundColor: ["rgba(1,87,155,1)", "rgba(16,181,154,1)", "rgba(30,144,255,1)"]
         }],
         labels: ["韓國瑜", "蔡英文", "王金平"]
     };
