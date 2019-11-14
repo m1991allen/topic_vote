@@ -466,7 +466,7 @@ $(document).on("click", "#ans3", function () {
 // 判斷
 function judge(count) {
     if (count == 9) {
-        if (countA > countB && countA > countC || countB > countC && countB > countA || countC > countA && countC > countB) {
+        if ((countA > countB && countA > countC) || countB > countC && countB > countA || (countC > countA && countC > countB)) {
             return show_topic_result();
         } else if (countA == countB && countA > countC) {
             return show_topic_1();
