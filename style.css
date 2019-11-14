@@ -438,3 +438,7 @@ hr.hr {
         display: none;
     }
 }
+
+.dontshow {
+    display: none;
+}

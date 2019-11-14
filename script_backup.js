@@ -8,7 +8,7 @@ topic.list = [
         issue: "兩岸政策",
         ans1: "主張一中各表的「九二共識」",
         ans2: "拒絕一國兩制，「中華民國台灣」是社會最大共識",
-        ans3: "宋楚瑜的政見",
+        ans3: "沒資料",
         res1: "0",
         res2: "1",
         res3: "2"
@@ -18,7 +18,7 @@ topic.list = [
         issue: "外交政策",
         ans1: "發展「裡子外交」三部曲，用經貿讓人民過好日子",
         ans2: "跟國際共享普世價值，在相同價值之下結交更多朋友",
-        ans3: "宋楚瑜的政見",
+        ans3: "沒資料",
         res1: "3",
         res2: "4",
         res3: "5"
@@ -28,7 +28,7 @@ topic.list = [
         issue: "觀光政策",
         ans1: "觀光局升級為「觀光部」，5個主張拚2028年來台旅客破2千萬人",
         ans2: "觀光局升格為「觀光署」，制定白皮書和召開全國觀光會議，拚2030年來台旅客破2千萬人",
-        ans3: "宋楚瑜的政見",
+        ans3: "沒資料",
         res1: "6",
         res2: "7",
         res3: "8"
@@ -38,7 +38,7 @@ topic.list = [
         issue: "能源政策",
         ans1: "在「安全無虞」和「人民同意」的前提下，讓核四電廠完工運轉",
         ans2: "能源轉型（2025年離岸風電完工）、非核家園",
-        ans3: "宋楚瑜的政見",
+        ans3: "沒資料",
         res1: "9",
         res2: "10",
         res3: "11"
@@ -48,7 +48,7 @@ topic.list = [
         issue: "經濟政策",
         ans1: "發大財",
         ans2: "打造有利的投資環境，與南亞和東南亞市場建立更強勁的經貿連結",
-        ans3: "宋楚瑜的政見",
+        ans3: "沒資料",
         res1: "12",
         res2: "13",
         res3: "14"
@@ -58,7 +58,7 @@ topic.list = [
         issue: "國防政策",
         ans1: "發大財",
         ans2: "「國防自主！自己的領空自己顧」 推動國機國造政策",
-        ans3: "宋楚瑜的政見",
+        ans3: "沒資料",
         res1: "15",
         res2: "16",
         res3: "17"
@@ -67,8 +67,8 @@ topic.list = [
         num: "| 第七題 ｜",
         issue: "社會福利政策",
         ans1: "解決青年貧窮感之撐腰三策，包括第一桶金、老青共居、留才補助",
-        ans2: "辣台妹的政見",
-        ans3: "宋楚瑜的政見",
+        ans2: "沒資料",
+        ans3: "沒資料",
         res1: "18",
         res2: "19",
         res3: "20"
@@ -77,8 +77,8 @@ topic.list = [
         num: "| 第八題 ｜",
         issue: "體育政策",
         ans1: "優秀選手出得去，國際賽事進得來，運動產業發大財",
-        ans2: "辣台妹的政見",
-        ans3: "宋楚瑜的政見",
+        ans2: "沒資料",
+        ans3: "沒資料",
         res1: "21",
         res2: "22",
         res3: "23"
@@ -87,8 +87,8 @@ topic.list = [
         num: "| 第九題 ｜",
         issue: "勞動政策",
         ans1: "「一例一休」無法符合多元勞動狀態需求，當選後會廢除",
-        ans2: "辣台妹的政見",
-        ans3: "宋楚瑜的政見",
+        ans2: "沒資料",
+        ans3: "沒資料",
         res1: "24",
         res2: "25",
         res3: "26"
@@ -97,8 +97,8 @@ topic.list = [
         num: "| 第十題 ｜",
         issue: "未決定",
         ans1: "發大財",
-        ans2: "辣台妹的政見",
-        ans3: "宋楚瑜的政見",
+        ans2: "沒資料",
+        ans3: "沒資料",
         res1: "27",
         res2: "28",
         res3: "29"
@@ -109,10 +109,11 @@ topic.list = [
 //結果
 topic.result = [
     {
+
         path: "https://i.imgur.com/HS9CTJa.png",
         name: "韓國瑜",
         slogan: "兩岸關係你儂我儂，而誰不喜歡愛情呢？",
-        ps: "你韓粉？"
+        ps: "你的政見像韓總，是好還是壞？"
     },
     {
         path: "https://i.imgur.com/gBUWPmJ.png",
@@ -122,10 +123,28 @@ topic.result = [
     },
     {
         path: "",
-        name: "宋楚瑜",
+        name: "王金平",
         slogan: "你好我金平啦。",
-        ps: "陪榜？"
+        ps: "你像王金平！"
     },
+    {
+        path: "https://i.imgur.com/gBUWPmJ.png",
+        name: "蔡英文",
+        slogan: "當年反對我們的人，現在都享受改革的成果。",
+        ps: "你與韓總同分，是不是代表你不認真選？"
+    },
+    {
+        path: "https://i.imgur.com/gBUWPmJ.png",
+        name: "蔡英文",
+        slogan: "當年反對我們的人，現在都享受改革的成果。",
+        ps: "雖然你與金平同分，但我們希望你更支持辣台派！"
+    },
+    {
+        path: "",
+        name: "王金平",
+        slogan: "你好我金平啦。",
+        ps: "雖然你與韓總同分，但我們不希望你像他！"
+    }
 ];
 
 
@@ -381,60 +400,7 @@ function show_topic() {
     $("#section").append(html_item);
 
 }
-//顯示題目＿韓蔡平手
-function show_topic_1() {
-    $("#section,#section_list").html("");
-    var item = topic.list[9];
-    var html_item =
-        html_topic.replace("{{num}}", item.num)
-            .replace("{{issue}}", item.issue)
-            .replace("{{ans1}}", item.ans1)
-            .replace("{{ans2}}", item.ans2)
-            // .replace("{{ans3}}", item.ans3)
-            .replace("{{res1}}", item.res1)
-            .replace("{{res2}}", item.res2)
-        // .replace("{{res3}}", item.res3)
-        ;
-    $("#section").append(html_item);
-    $(".layout>.block:nth-child(3)").css("display", "none")
 
-}
-//顯示題目＿韓宋平手
-function show_topic_2() {
-    $("#section,#section_list").html("");
-    var item = topic.list[9];
-    var html_item =
-        html_topic.replace("{{num}}", item.num)
-            .replace("{{issue}}", item.issue)
-            .replace("{{ans1}}", item.ans1)
-            // .replace("{{ans2}}", item.ans2)
-            .replace("{{ans3}}", item.ans3)
-            .replace("{{res1}}", item.res1)
-            // .replace("{{res2}}", item.res2)
-            .replace("{{res3}}", item.res3)
-        ;
-    $("#section").append(html_item);
-    $(".layout>.block:nth-child(2)").css("display", "none")
-
-}
-//顯示題目＿蔡宋平手
-function show_topic_3() {
-    $("#section,#section_list").html("");
-    var item = topic.list[9];
-    var html_item =
-        html_topic.replace("{{num}}", item.num)
-            .replace("{{issue}}", item.issue)
-            // .replace("{{ans1}}", item.ans1)
-            .replace("{{ans2}}", item.ans2)
-            .replace("{{ans3}}", item.ans3)
-            // .replace("{{res1}}", item.res1)
-            .replace("{{res2}}", item.res2)
-            .replace("{{res3}}", item.res3)
-        ;
-    $("#section").append(html_item);
-    $(".layout>.block:nth-child(1)").css("display", "none")
-
-}
 
 // 選擇答案及累計選誰次數
 var countA = 0, countB = 0, countC = 0, count = 0;
@@ -444,7 +410,11 @@ $(document).on("click", "#ans1", function () {
     answer.push(id);
     countA++;
     count = countA + countB + countC;
-    judge(count);
+    if (count == 10) {
+        show_topic_result();
+    } else {
+        show_topic();
+    }
 })
 
 $(document).on("click", "#ans2", function () {
@@ -452,7 +422,11 @@ $(document).on("click", "#ans2", function () {
     answer.push(id);
     countB++;
     count = countA + countB + countC;
-    judge(count);
+    if (count == 10) {
+        show_topic_result();
+    } else {
+        show_topic();
+    }
 })
 
 $(document).on("click", "#ans3", function () {
@@ -460,31 +434,14 @@ $(document).on("click", "#ans3", function () {
     answer.push(id);
     countC++;
     count = countA + countB + countC;
-    judge(count);
-})
-
-// 判斷
-function judge(count) {
-    if (count == 9) {
-        if (countA > countB && countA > countC || countB > countC && countB > countA || countC > countA && countC > countB) {
-            return show_topic_result();
-        } else if (countA == countB && countA > countC) {
-            return show_topic_1();
-        } else if (countA == countC && countA > countB) {
-            return show_topic_2();
-        } else if (countB == countC && countB > countA) {
-            return show_topic_3();
-        } else {
-            show_topic();
-        }
-    } else if (count == 10) {
-        return show_topic_result();
+    if (count == 10) {
+        show_topic_result();
     } else {
         show_topic();
     }
-}
+})
 
-// 計算結果
+// 結果
 function show_topic_result() {
     $("#section,#section_list").html("");
     // 韓國瑜領先
@@ -507,8 +464,38 @@ function show_topic_result() {
                 .replace("{{ps}}", item.ps)
             ;
     }
-    // 宋楚瑜領先
-    else if (countC > countA && countC > countB) {
+    // 蔡與韓同分，且大於王
+    else if (countB == countA && countB > countC) {
+        var item = topic.result[3];
+        var html_item =
+            html_topic_result.replace("{{path}}", item.path)
+                .replace("{{slogan}}", item.slogan)
+                .replace("{{name}}", item.name)
+                .replace("{{ps}}", item.ps)
+            ;
+    }
+    // 蔡與王同分，且大於韓
+    else if (countB == countC && countB > countA) {
+        var item = topic.result[4];
+        var html_item =
+            html_topic_result.replace("{{path}}", item.path)
+                .replace("{{slogan}}", item.slogan)
+                .replace("{{name}}", item.name)
+                .replace("{{ps}}", item.ps)
+            ;
+    }
+    // 韓與王平手，且領先蔡
+    else if (countA == countC && countA > countB) {
+        var item = topic.result[5];
+        var html_item =
+            html_topic_result.replace("{{path}}", item.path)
+                .replace("{{slogan}}", item.slogan)
+                .replace("{{name}}", item.name)
+                .replace("{{ps}}", item.ps)
+            ;
+    }
+    //王金平領先
+    else {
         var item = topic.result[2];
         var html_item =
             html_topic_result.replace("{{path}}", item.path)
@@ -518,15 +505,15 @@ function show_topic_result() {
             ;
     }
     $("#section").append(html_item);
-    var contA = countA / count * 100;
-    var contB = countB / count * 100;
-    var contC = countC / count * 100;
+    countA = countA * 10;
+    countB = countB * 10;
+    countC = countC * 10;
 
     var canvas = document.getElementById('myChart')
     var ctx = canvas.getContext('2d')
     var dataPie = {
         datasets: [{
-            data: [contA.toFixed(1), contB.toFixed(1), contC.toFixed(1)],
+            data: [countA, countB, countC],
             backgroundColor: ["rgba(1,87,155,1)", "rgba(16,181,154,1)", "rgba(30,144,255,1)"]
         }],
         labels: ["韓國瑜", "蔡英文", "王金平"]
@@ -543,9 +530,6 @@ function show_topic_result() {
         options: options
     });
 }
-
-
-
 
 // 清單
 function show_detail_list() {
@@ -573,9 +557,6 @@ function show_detail_list() {
     }
     $("#section_list").append("<div class='btn' id='news_btn'>看更多新聞</div>");
 }
-
-
-
 
 
 // 詳細新聞內容
