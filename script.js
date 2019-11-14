@@ -550,20 +550,36 @@ function show_topic_result() {
 // 清單
 function show_detail_list() {
     $("#section").html("");
-
-    for (var i = 0; i < 10; i++) {
-        var item = topic.list[i];
-        var html_item = html_topic_list.replace("{{num}}", "解答")
-            .replace("{{issue}}", item.issue)
-            .replace("{{ans1}}", item.ans1)
-            .replace("{{ans2}}", item.ans2)
-            .replace("{{ans3}}", item.ans3)
-            .replace("{{res1}}", item.res1)
-            .replace("{{res2}}", item.res2)
-            .replace("{{res3}}", item.res3)
-            ;
-        $("#section_list").append(html_item);
+    if (count == 9) {
+        for (var i = 0; i < 9; i++) {
+            var item = topic.list[i];
+            var html_item = html_topic_list.replace("{{num}}", "解答")
+                .replace("{{issue}}", item.issue)
+                .replace("{{ans1}}", item.ans1)
+                .replace("{{ans2}}", item.ans2)
+                .replace("{{ans3}}", item.ans3)
+                .replace("{{res1}}", item.res1)
+                .replace("{{res2}}", item.res2)
+                .replace("{{res3}}", item.res3)
+                ;
+            $("#section_list").append(html_item);
+        }
+    } else {
+        for (var i = 0; i < 10; i++) {
+            var item = topic.list[i];
+            var html_item = html_topic_list.replace("{{num}}", "解答")
+                .replace("{{issue}}", item.issue)
+                .replace("{{ans1}}", item.ans1)
+                .replace("{{ans2}}", item.ans2)
+                .replace("{{ans3}}", item.ans3)
+                .replace("{{res1}}", item.res1)
+                .replace("{{res2}}", item.res2)
+                .replace("{{res3}}", item.res3)
+                ;
+            $("#section_list").append(html_item);
+        }
     }
+
     //使用者選擇的答案
     var array = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29"];
     for (let i = 0; i < answer.length; i++) {
@@ -573,8 +589,6 @@ function show_detail_list() {
     }
     $("#section_list").append("<div class='btn' id='news_btn'>看更多新聞</div>");
 }
-
-
 
 
 
