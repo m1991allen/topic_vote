@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FTV Vote Banner</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 300vh;
+        }
+
+        .bnr {
+            position: relative;
+        }
+
+        .bnr .bnr_bg {
+            height: 700px;
+        }
+
+        .bnr .bnr_item {
+            max-width: 600px;
+            width: 100%;
+            position: absolute;
+            z-index: 3;
+        }
+
+        .bnr .bnr_left {
+            top: 10%;
+            left: 0;
+        }
+
+        .bnr .bnr_right {
+            bottom: 10%;
+            right: 0;
+        }
+
+        .bnr_txt_left {
+            top: 20%;
+            left: 0;
+            max-width: 500px !important;
+        }
+
+        .bnr_txt_right {
+            bottom: 20%;
+            right: 0;
+            max-width: 500px !important;
+        }
+
+        .bnr .logo {
+            max-width: 450px;
+            width: 100%;
+            z-index: 5;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media screen and (max-width:998px) {
+            .bnr .bnr_bg {
+                height: 1125px;
+            }
+
+            .bnr .logo {
+                width: 80%;
+            }
+
+            .bnr_txt_left {
+                top: 15%;
+                left: 0;
+                max-width: 400px !important;
+            }
+
+            .bnr_txt_right {
+                bottom: 15%;
+                right: 0;
+                max-width: 400px !important;
+            }
+
+            .bnr .bnr_left {
+                top: 10%;
+                left: 0;
+            }
+
+            .bnr .bnr_right {
+                bottom: 10%;
+                right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bnr">
+        <picture>
+            <source srcset="https://i.imgur.com/dk8ffN7.jpg" media="(max-width: 992px)">
+            <img class="bnr_bg" src="https://i.imgur.com/395X4at.jpg" alt="ftv_background">
+        </picture>
+        <img class="bnr_item bnr_left" src="https://i.imgur.com/4vYOZGC.png" data-0="transform: translateX(-200px)"
+            data-50="transform: translateX(0px)">
+        <img class="bnr_item bnr_txt_left" src="https://i.imgur.com/xrmNzrN.png" data-0="transform: translateX(-600px)"
+            data-100="transform: translateX(50px)">
+        <img class="bnr_item bnr_right" src="https://i.imgur.com/Y5I6aPd.png" data-0="transform: translateX(200px)"
+            data-50="transform: translateX(0px)">
+        <img class="bnr_item bnr_txt_right" src="https://i.imgur.com/XQA0DQz.png" data-0="transform: translateX(600px)"
+            data-100="transform: translateX(-50px)">
+        <img class="bnr_item logo" src="https://i.imgur.com/LZyC0Fz.png" alt="ftv_logo">
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        var s = skrollr.init();
+    </script>
+</body>
+
+</html>

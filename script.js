@@ -348,7 +348,7 @@ topic.detail = [
 var html_topic = "<h1>{{num}}</h1><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><p id='ans1'>{{ans1}}</p></div><div class='block' id='{{res2}}'><p id='ans2'>{{ans2}}</p></div><div class='block' id='{{res3}}'><p id='ans3'>{{ans3}}</p></div></div>";
 
 // 結果
-var html_topic_result = "<h1>結果<i class='fab fa-facebook'></i></h1><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><p>{{ps}}</p><div class='btn' id='review_btn'>看解答</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas><p>單位：％</p></div></div>";
+var html_topic_result = "<h1>結果<i class='fab fa-facebook'></i></h1><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><p>{{ps}}</p><div class='btn' id='review_btn'>看解答</div><div class='btn' onClick='window.location.reload();'>重頭來過</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas><p>單位：％</p></div></div>";
 
 // 清單
 var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/vdMZVDA.png'/><p>{{ans3}}</p></div>";
@@ -545,8 +545,6 @@ function show_topic_result() {
 }
 
 
-
-
 // 清單
 function show_detail_list() {
     $("#section").html("");
@@ -587,7 +585,7 @@ function show_detail_list() {
             document.getElementById(answer[i]).classList.add("select");
         }
     }
-    $("#section_list").append("<div class='btn' id='news_btn'>看更多新聞</div>");
+    $("#section_list").append("<div class='btn' id='news_btn'>看更多新聞</div><div class='btn' id='prev_res'>回上頁</div>");
 }
 
 
@@ -615,7 +613,11 @@ $(document).on("click", "#section_list>.layout>.block", function () {
 })
 
 $(document).on("click", "#prev", function () {
-    show_detail_list();
+    show_detail();
+})
+
+$(document).on("click", "#prev_res", function () {
+    show_topic_result();
 })
 
 // 相關新聞聯結
