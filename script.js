@@ -613,7 +613,8 @@ $(document).on("click", "#section_list>.layout>.block", function () {
 })
 
 $(document).on("click", "#prev", function () {
-    show_detail();
+    // html_topic_list();
+    show_detail_list();
 })
 
 $(document).on("click", "#prev_res", function () {
