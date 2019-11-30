@@ -146,7 +146,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "與中國的關係應該是中華民國兩個地區",
         source: "三立新聞",
         date: "2019/06/25",
@@ -167,7 +167,7 @@ topic.detail = [
         detail: "<span class='bigfont'>舉</span>會隨化去我主示好。已告已用強看河正老已的大得汽工同的上是了不意怕用現手、險院爸上應些車麼的是了他相引人驗談當發合的形？司團會，全觀字子星停且動評化的他，靜聯身不紀統了會的以公史員，在力到點經萬還價氣公人市大成營賽部做人溫法了裡顯軍，何本花？部眼足靈，不密開產標遠然同出眼清聞是故強究歌綠她地邊電意到日只以他能亞奇麼主人名第音人。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "立場中性，參與討論就好",
         source: "中國時報",
         date: "",
@@ -188,7 +188,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "東森新聞",
         date: "",
@@ -209,7 +209,7 @@ topic.detail = [
         detail: "<span class='bigfont'>舉</span>會隨化去我主示好。已告已用強看河正老已的大得汽工同的上是了不意怕用現手、險院爸上應些車麼的是了他相引人驗談當發合的形？司團會，全觀字子星停且動評化的他，靜聯身不紀統了會的以公史員，在力到點經萬還價氣公人市大成營賽部做人溫法了裡顯軍，何本花？部眼足靈，不密開產標遠然同出眼清聞是故強究歌綠她地邊電意到日只以他能亞奇麼主人名第音人。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "中天新聞",
         date: "",
@@ -230,7 +230,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "頻果",
         date: "",
@@ -251,7 +251,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "中央通訊社",
         date: "",
@@ -272,7 +272,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "中央通訊社",
         date: "",
@@ -293,7 +293,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "中央通訊社",
         date: "",
@@ -314,7 +314,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "中央通訊社",
         date: "",
@@ -335,7 +335,7 @@ topic.detail = [
         detail: "<span class='bigfont'>要</span>可中的美語飯考，天決臺：華望我有居引一服出色覺排車有還自有兩天調地而：死強座預升。留哥別出對報了子境大間然子用，立著月當室她馬著位標成士無一的，顧士什近文點意可局再子光卻該；有經一簡竟口速假世推場境市不輪……民他下臉對歡不不到？靜費工幾腳全公裡麼信白開列多色布值的導器算作，斯她一戰的大電再感馬的麼請度年特界界法意行！的書兒會手場詩學中得所列，家金新集查這快、是一以級要止，樂都列縣公被？西阿兒況個務卻花市，民你苦學後們在格市系不基所包道方續。"
     },
     {
-        path: "https://i.imgur.com/vdMZVDA.png",
+        path: "https://i.imgur.com/pLgckHJ.png",
         issue: "發大財",
         source: "東森新聞",
         date: "",
@@ -351,7 +351,7 @@ var html_topic = "<h1>{{num}}</h1><h3>{{issue}}</h3><div class='layout'><div cla
 var html_topic_result = "<h1>結果<i class='fab fa-facebook'></i></h1><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><p>{{ps}}</p><div class='btn' id='review_btn'>看解答</div><div class='btn' onClick='window.location.reload();'>重頭來過</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas><p>單位：％</p></div></div>";
 
 // 清單
-var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/vdMZVDA.png'/><p>{{ans3}}</p></div>";
+var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/pLgckHJ.png'/><p>{{ans3}}</p></div>";
 
 // 詳解
 var html_topic_detail = "<div class='box flex'><div class='face'><img src='{{path}}'/></div><div class='issue'><h4>{{issue}}</h4><div class='source'><div class='flex'><img class='light' src='https://i.imgur.com/DSdFUXP.png'/><div class='text'><p>{{source}}</p><p>{{date}}</p></div></div></div></div></div><hr class='hr'/><div class='box'><p>{{detail}}</p><div class='btn' id='prev'>回上頁</div></div>";
