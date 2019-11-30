@@ -121,9 +121,9 @@ topic.result = [
         ps: "繼續支持辣台妹！"
     },
     {
-        path: "",
+        path: "https://i.imgur.com/6YjJzx3.png",
         name: "宋楚瑜",
-        slogan: "你好我金平啦。",
+        slogan: "你好！我是宋省長！",
         ps: "陪榜？"
     },
 ];
