@@ -554,7 +554,7 @@ function show_topic_result() {
     var dataPie = {
         datasets: [{
             data: [contA.toFixed(1), contB.toFixed(1), contC.toFixed(1)],
-            backgroundColor: ["rgba(38, 167, 237, 1)", "rgba(38, 237, 131, 1)", "rgba(237, 118, 38, 1)"]
+            backgroundColor: ["rgba(53, 85, 132, 1)", "rgba(94, 153, 118, 1)", "rgba(198, 124, 74, 1)"]
         }],
         labels: ["韓國瑜", "蔡英文", "宋楚瑜"]
     };
