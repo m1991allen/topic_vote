@@ -307,6 +307,7 @@ button {
     height: 100% !important;
     justify-content: center !important;
     align-items: center !important;
+    text-align: center;
 }
 
 .layout .block img {
@@ -328,8 +329,10 @@ button {
 }
 
 @media screen and (max-width: 500px) {
-    .layout .block:hover:hover {
-        width: 95%;
+    .layout .block:hover {
+        width: 90%;
+        background-color: rgba(230, 226, 216, 0.7);
+        color: black;
     }
 }
 
@@ -387,6 +390,11 @@ hr.hr {
     transition: 0.5s;
     cursor: pointer;
     box-shadow: 1px 2px 3px black;
+}
+
+.box .source .text {
+    width: 100%;
+    text-align: center;
 }
 
 .box .source .text p {
