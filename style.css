@@ -236,7 +236,7 @@ button {
 @media screen and (max-width:500px) {
     .container main .btn:hover {
         border: 2px solid #000;
-        background-color: transparent;
+        background-color: #e6e2d8b3;
         color: black;
     }
 }
@@ -375,7 +375,7 @@ button {
 }
 
 @media screen and (max-width: 500px) {
-    .layout .block:hover:hover {
+    .layout .block:hover {
         width: 95%;
         background-color: rgba(230, 226, 216, 0.7);
         color: color;
