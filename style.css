@@ -449,7 +449,7 @@ hr.hr {
 
 @media screen and (max-width: 500px) {
     .box .source {
-        display: block;
+        display: inline-block;
     }
     .box .source p {
         font-size: 1rem;
