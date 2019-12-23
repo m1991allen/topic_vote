@@ -6,9 +6,9 @@ topic.list = [
     {
         num: "| 第ㄧ題 ｜",
         issue: "Q1.海峽對岸的強國主張九二共識、和平統一台灣，並實施一國兩制，我回應...",
-        ans1: "捍衛中華民國主權<br>主張一中各表的「九二共識」",
-        ans2: "拒絕一國兩制<br>「中華民國台灣」是最大共識",
-        ans3: "請正視中華民國存在<br>在對岸未實現自由民主法治前，主張維持現狀",
+        ans1: "請正視中華民國存在<br>在對岸未實現自由民主法治前，主張維持現狀",
+        ans2: "捍衛中華民國主權<br>主張一中各表的「九二共識」",
+        ans3: "拒絕一國兩制<br>「中華民國台灣」是最大共識",
         res1: "0",
         res2: "1",
         res3: "2"
@@ -16,9 +16,9 @@ topic.list = [
     {
         num: "| 第二題 ｜",
         issue: "Q2.我國生育率持續下降，許多人不想生或不敢生，我主張...",
-        ans1: "0到6歲國家幫忙養<br>推行666育兒政策",
-        ans2: "育兒津貼再加碼<br>0到6歲國家跟你一起養",
-        ans3: "育兒不只補助<br>幼兒園應納入國民義務教育",
+        ans1: "育兒不只補助<br>幼兒園應納入國民義務教育",
+        ans2: "0到6歲國家幫忙養<br>推行666育兒政策",
+        ans3: "育兒津貼再加碼<br>0到6歲國家跟你一起養",
         res1: "3",
         res2: "4",
         res3: "5"
@@ -26,9 +26,9 @@ topic.list = [
     {
         num: "| 第三題 ｜",
         issue: "Q3.退休金應該「世世代代領得到，長長久久領到老」，關於年改議題，我主張...",
-        ans1: "年金暴政留殘局<br>千億預算撥補勞保基金",
-        ans2: "年金改革非做不可<br>感謝軍公教體諒",
-        ans3: "年金改格胡亂暴衝<br>上任後重新檢討",
+        ans1: "年金改格胡亂暴衝<br>上任後重新檢討",
+        ans2: "年金暴政留殘局<br>千億預算撥補勞保基金",
+        ans3: "年金改革非做不可<br>感謝軍公教體諒",
         res1: "6",
         res2: "7",
         res3: "8"
@@ -36,9 +36,9 @@ topic.list = [
     {
         num: "| 第四題 ｜",
         issue: "Q4.照顧台灣勞工，讓他們有力氣繼續賺錢，我主張...",
-        ans1: "聽方丈的話修改一例一休<br>再拋「勞動三箭」",
-        ans2: "一例一休執行給予企業彈性<br>減稅加薪顧勞工",
-        ans3: "維持一例一休的精神<br>但調整為「異業異法」",
+        ans1: "維持一例一休的精神<br>但調整為「異業異法」",
+        ans2: "聽方丈的話修改一例一休<br>再拋「勞動三箭」",
+        ans3: "一例一休執行給予企業彈性<br>減稅加薪顧勞工",
         res1: "9",
         res2: "10",
         res3: "11"
@@ -46,9 +46,9 @@ topic.list = [
     {
         num: "| 第五題 ｜",
         issue: "Q5.要有足夠用電，也要有身體健康，關於台灣能源政策，我主張...",
-        ans1: "反對用肺發電<br>兩個前提下重啟核四",
-        ans2: "沒人想把核廢料放家裡<br>目標2025年綠電達20%",
-        ans3: "反對「拼裝車」核四<br>但不輕言廢核",
+        ans1: "反對「拼裝車」核四<br>但不輕言廢核",
+        ans2: "反對用肺發電<br>兩個前提下重啟核四",
+        ans3: "沒人想把核廢料放家裡<br>目標2025年綠電達20%",
         res1: "12",
         res2: "13",
         res3: "14"
@@ -56,9 +56,9 @@ topic.list = [
     {
         num: "| 第六題 ｜",
         issue: "Q6.「人進來，發大財」不只是口號，對於好好拚觀光，我主張...",
-        ans1: "觀光行銷我最會<br>五大主張拚2028年旅客破2千萬人",
-        ans2: "觀光不能只依靠中國<br>修法升格拚觀光立國",
-        ans3: "中國處罰觀光業不公平<br>我當選後親自處理",
+        ans1: "中國處罰觀光業不公平<br>我當選後親自處理",
+        ans2: "觀光行銷我最會<br>五大主張拚2028年旅客破2千萬人",
+        ans3: "觀光不能只依靠中國<br>修法升格拚觀光立國",
         res1: "15",
         res2: "16",
         res3: "17"
@@ -66,9 +66,9 @@ topic.list = [
     {
         num: "| 第七題 ｜",
         issue: "Q7.我國新移民日漸增加，他們都是鳳凰，我主張...",
-        ans1: "成立新移民委員會<br>懷孕新移民來台即納健保",
-        ans2: "擴大補助、母語入校園<br>多面向照顧「台灣新驕傲」",
-        ans3: "設立新住民委員會<br>協助新住民子女教育就業",
+        ans1: "設立新住民委員會<br>協住新住民子女教育就業",
+        ans2: "成立新移民委員會<br>懷孕新移民來台即納健保",
+        ans3: "擴大補助、母語入校園<br>多面向照顧「台灣新驕傲」",
         res1: "18",
         res2: "19",
         res3: "20"
@@ -76,9 +76,9 @@ topic.list = [
     {
         num: "| 第八題 ｜",
         issue: "Q8.現代青年壓力大，被生活逼到失去戰鬥力，我主張...",
-        ans1: "學貸免息、雙語教育<br>免費出國交換一年",
-        ans2: "學貸減壓再活化<br>政府幫你補房租",
-        ans3: "學貸免息、凍漲公立大學學費<br>兩桶金助買房",
+        ans1: "學貸免息、凍漲公立大學學費<br>兩桶金助買房",
+        ans2: "學貸免息、雙語教育<br>免費出國交換一年",
+        ans3: "學貸減壓再活化<br>政府幫你補房租",
         res1: "21",
         res2: "22",
         res3: "23"
@@ -86,9 +86,9 @@ topic.list = [
     {
         num: "| 第九題 ｜",
         issue: "Q9.政府拚經濟，人民才能活下去，我主張...",
-        ans1: "推動自貿區<br>擦亮庶民經濟招牌",
-        ans2: "推動投資台灣三方案<br>打造亞洲高階製研中心",
-        ans3: "制定專法厚植台灣經濟<br>扶植新創產業",
+        ans1: "制定專法厚植台灣經濟<br>扶植新創產業",
+        ans2: "推動自貿區<br>擦亮庶民經濟招牌",
+        ans3: "推動投資台灣三方案<br>打造亞洲高階製研中心",
         res1: "24",
         res2: "25",
         res3: "26"
@@ -96,9 +96,9 @@ topic.list = [
     {
         num: "| 第十題 ｜",
         issue: "Q10.台灣房價高，青年不吃不喝幾十年也買不起，為了落實居住正義，我主張...",
-        ans1: "推動青銀共居<br>給你自立成家基金",
-        ans2: "社會住宅繼續蓋<br>包租代管大力推",
-        ans3: "推動「工者有其屋」<br>企業與政府合作興建住宅",
+        ans1: "推動「工者有其屋」<br>企業與政府合作興建住宅",
+        ans2: "推動青銀共居<br>給你自立成家基金",
+        ans3: "社會住宅繼續蓋<br>包租代管大力推",
         res1: "27",
         res2: "28",
         res3: "29"
@@ -109,6 +109,11 @@ topic.list = [
 //結果
 topic.result = [
     {
+        path: "https://i.imgur.com/6YjJzx3.png",
+        name: "宋楚瑜",
+        slogan: "藍綠推兩邊，人民擺中間<br>終局之戰中我是獨孤求敗！"
+    },
+    {
         path: "https://i.imgur.com/HS9CTJa.png",
         name: "韓國瑜",
         slogan: "台灣安全，人民有錢<br>韓粉們請隨我一起出征！"
@@ -118,16 +123,21 @@ topic.result = [
         name: "蔡英文",
         slogan: "2020台灣要贏<br>一同加入辣台派守護台灣！"
     },
-    {
-        path: "https://i.imgur.com/6YjJzx3.png",
-        name: "宋楚瑜",
-        slogan: "藍綠推兩邊，人民擺中間<br>終局之戰中我是獨孤求敗！"
-    },
+
 ];
 
 
-// 每題詳解
+// 詳細新聞內容
 topic.detail = [
+    //1
+    {
+        path: "https://i.imgur.com/pLgckHJ.png",
+        issue: "Q1.海峽對岸的強國主張九二共識、和平統一台灣，並實施一國兩制，我回應...",
+        source: "<i class='fas fa-feather-alt'></i> 新聞連結",
+        newsrc: "https://www.ftvnews.com.tw/news/detail/2019B13W0012",
+        date: " <i class='far fa-clock'></i> 2019/11/13",
+        detail: "宋楚瑜公布的十大政見當中，在兩岸政策方面主張「對岸必須正視中華民國的存在事實，我們主張對等分治、兩岸對話、和平發展。<br>在中國大陸還未完全實現自由民主法治前，台灣絕對主張維持現狀」。"
+    },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
         issue: "Q1.海峽對岸的強國主張九二共識、和平統一台灣，並實施一國兩制，我回應...",
@@ -144,13 +154,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/10/10",
         detail: "總統蔡英文於2019年雙十國慶時發表談話，除了提到香港一國兩制的失敗，對於習近平提出「一國兩制台灣方案」，蔡總統也喊出「拒絕一國兩制」、「中華民國台灣」，就是目前台灣社會最大共識。<br>蔡總統表示「當自由民主受到挑戰，當中華民國的生存發展受到威脅，我們就必須站出來捍衛，拒絕一國兩制，是2300萬台灣人民不分黨派、不分立場，彼此間最大的共識」。<br>也提到「中華民國不是誰的專利，台灣也不是誰可以獨佔，中華民國台灣六個字，絕對不是藍色，也不會是綠色，這就是整個社會最大的共識」。"
     },
+
+    //2
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q1.海峽對岸的強國主張九二共識、和平統一台灣，並實施一國兩制，我回應...",
+        issue: "Q2.我國生育率持續下降，許多人不想生或不敢生，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/detail/2019B13W0012",
-        date: " <i class='far fa-clock'></i> 2019/11/13",
-        detail: "宋楚瑜公布的十大政見當中，在兩岸政策方面主張「對岸必須正視中華民國的存在事實，我們主張對等分治、兩岸對話、和平發展。<br>在中國大陸還未完全實現自由民主法治前，台灣絕對主張維持現狀」。"
+        newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
+        date: "",
+        detail: "針對總統蔡英文提出「0到6歲國家一起養」，承諾育兒津貼將加倍，親民黨在臉書發文，表示「灑錢補助方案只是變相的政策買票」。<br>親民黨提出，應該將國民義務教育向下紮根三年，小班、中班、大班，將幼兒提前納入國民義務教育體制內，由國家統一接手協助負責，不要錯過最黃金的幼兒學習，除了避免各地方政府補助金額不一，造成家長無所適從，也可以避免政黨輪替後，面臨換一個政府就換一種養法的困境。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -168,13 +180,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/11/23",
         detail: "為了鼓勵年輕人敢生敢養，總統蔡英文宣布「0到6歲國家跟你一起養」政策，育兒津貼將從現在每個月2500元，四年增加到5000元，補助年齡從4歲延伸到6歲。<br>由於口號聽起來類似鴻海創辦人郭台銘喊出的「0到6歲國家養」，還被韓國瑜陣營質疑「拿香跟著拜」，蔡總統回應沒有較勁的意思。"
     },
+
+    //3
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q2.我國生育率持續下降，許多人不想生或不敢生，我主張...",
+        issue: "Q3.退休金應該「世世代代領得到，長長久久領到老」，關於年改議題，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
-        date: "",
-        detail: "針對總統蔡英文提出「0到6歲國家一起養」，承諾育兒津貼將加倍，親民黨在臉書發文，表示「灑錢補助方案只是變相的政策買票」。<br>親民黨提出，應該將國民義務教育向下紮根三年，小班、中班、大班，將幼兒提前納入國民義務教育體制內，由國家統一接手協助負責，不要錯過最黃金的幼兒學習，除了避免各地方政府補助金額不一，造成家長無所適從，也可以避免政黨輪替後，面臨換一個政府就換一種養法的困境。"
+        newsrc: "https://www.ftvnews.com.tw/news/detail/2019C18W0068",
+        date: " <i class='far fa-clock'></i> 2019/12/18",
+        detail: "宋楚瑜在2020首場總統政見發表會上提到，改革需要魄力，但更需要方法，「了解溝通」就是必要手段。<br>而政府過去三年提出許多改革，但行政和立法脫鉤，沒有協調好，所以引起許多抗爭，就是「改革胡亂爆衝」。<br>宋楚瑜舉例，不當黨產委員會讓國民黨繳出很多錢，但這些錢沒有好好運用，拿去補貼年金改革，讓過去為台灣國防奮鬥的老兵難以安。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -192,13 +206,16 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/08/23",
         detail: "年金改革釋憲結果先前出爐，包括法律不溯及既往原則、信賴保護原則、比例原則、誠信原則、平等原則及正當法律程序等條例都合憲，只有「禁領雙薪」違憲。<br>對此，總統蔡英文特別發文感謝軍公教諒解，並強調年改是為了讓現職和退休的軍公教人員，不必擔心退撫基金破產，「世世代代領得到，長長久久領到老」。"
     },
+
+
+    //4
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q3.退休金應該「世世代代領得到，長長久久領到老」，關於年改議題，我主張...",
+        issue: "Q4.照顧台灣勞工，讓他們有力氣繼續賺錢，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/detail/2019C18W0068",
-        date: " <i class='far fa-clock'></i> 2019/12/18",
-        detail: "宋楚瑜在2020首場總統政見發表會上提到，改革需要魄力，但更需要方法，「了解溝通」就是必要手段。<br>而政府過去三年提出許多改革，但行政和立法脫鉤，沒有協調好，所以引起許多抗爭，就是「改革胡亂爆衝」。<br>宋楚瑜舉例，不當黨產委員會讓國民黨繳出很多錢，但這些錢沒有好好運用，拿去補貼年金改革，讓過去為台灣國防奮鬥的老兵難以安。"
+        newsrc: "https://www.ftvnews.com.tw/news/detail/2019B13W0012",
+        date: " <i class='far fa-clock'></i> 2019/11/13",
+        detail: "宋楚瑜公布的十大政見當中，在勞工政策方面主張，為了保障勞工權益，維持一例一休的精神，但調整為「異業異法」，我們需要一套兼顧彈性與保障的勞動法，重新找回和諧勞資關係。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -216,13 +233,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/10/20",
         detail: "對於韓國瑜指「一例一休」連方丈都看不下去，蔡英文回應，在法律執行中，都有給予一定彈性，如果有企業受到影響，會給予方案協助。<br>針對勞工議題，蔡總統也曾表示執政三年以來，基本工資調漲4次，是第一個敢年年漲基本工資的政府，會讓辛苦打拚的人民得到最多的照顧。"
     },
+
+    //5
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q4.照顧台灣勞工，讓他們有力氣繼續賺錢，我主張...",
+        issue: "Q5.要有足夠用電，也要有身體健康，關於台灣能源政策，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/detail/2019B13W0012",
-        date: " <i class='far fa-clock'></i> 2019/11/13",
-        detail: "宋楚瑜公布的十大政見當中，在勞工政策方面主張，為了保障勞工權益，維持一例一休的精神，但調整為「異業異法」，我們需要一套兼顧彈性與保障的勞動法，重新找回和諧勞資關係。"
+        newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
+        date: "",
+        detail: "宋楚瑜在2016年參選總統時提出的能源政策，指出在沒有充足替代能源之前，暫時不廢核電，但因為安全問題堪慮，他反對核四。而本屆選舉，他也再度重提核四是因為不同利益團體分贓，才產生「拼裝車」問題。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -240,13 +259,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/10/12",
         detail: "總統蔡英文在「青聽我們說─2020總統大選青年論壇」，針對蘭嶼核廢料議題，表示「核廢料要放哪裡」是台灣發展核電最大的挑戰，大家都不願意將核廢料放在家裡附近，也是為何要推動再生能源、非核家園政策。而蔡政府也協助國內業者推綠能建設，預計2025年，綠能供電可以達到20%。"
     },
+
+    //6
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q5.要有足夠用電，也要有身體健康，關於台灣能源政策，我主張...",
+        issue: "Q6.「人進來，發大財」不只是口號，對於好好拚觀光，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
-        date: "",
-        detail: "宋楚瑜在2016年參選總統時提出的能源政策，指出在沒有充足替代能源之前，暫時不廢核電，但因為安全問題堪慮，他反對核四。而本屆選舉，他也再度重提核四是因為不同利益團體分贓，才產生「拼裝車」問題。"
+        newsrc: "https://www.ftvnews.com.tw/news/detail/2019C16W0018",
+        date: " <i class='far fa-clock'></i> 2019/12/11",
+        detail: "宋楚瑜日前與不分區立委候選人合體，參加「觀光產業座談會」，和旅遊業者進行交流。宋楚瑜提到，北京政府對民進黨有意見，卻拿最希望兩岸交流的觀光產業出氣，是不公平的，也承諾當選總統後，會親自處理兩岸旅遊問題。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -264,13 +285,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/12/16",
         detail: "根據觀光局統計，今年來台國際旅客超過1111萬人次，突破歷史新高！而總統蔡英文日前參加「Tourism 2030 全國觀光政策發展會議」時也提到，執政三年多來，確實把觀光客來源的結構改變了，不再僅是依賴中國。另外，交通部也提出「觀光三箭」計畫，包含加速觀光局升格為觀光署，提出2030年觀光政策白皮書，目標是2030年來台國際觀光客達2000萬人次。"
     },
+
+    //7
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q6.「人進來，發大財」不只是口號，對於好好拚觀光，我主張...",
+        issue: "Q7.我國新移民日漸增加，他們都是鳳凰，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/detail/2019C16W0018",
-        date: " <i class='far fa-clock'></i> 2019/12/11",
-        detail: "宋楚瑜日前與不分區立委候選人合體，參加「觀光產業座談會」，和旅遊業者進行交流。宋楚瑜提到，北京政府對民進黨有意見，卻拿最希望兩岸交流的觀光產業出氣，是不公平的，也承諾當選總統後，會親自處理兩岸旅遊問題。"
+        newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
+        date: "",
+        detail: "宋楚瑜公布的十大政見當中，在新住民政策方面，主張設立新住民委員會，協助新住民融入台灣社會，照顧其新住民子女教育及就業。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -288,13 +311,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/12/16",
         detail: "總統蔡英文日前推出最新競選廣告「台灣新驕傲」，用6種語言述說新住民逐漸撕掉外在標籤，也感謝新住民為台灣帶來新的文化、新的體驗。<br>記者會上民進黨不分區立委參選人、新住民代表羅美玲，也細數蔡總統任內推動的新住民政績，大讚「絕對是最照顧新住民的總統」。"
     },
+
+    //8
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q7.我國新移民日漸增加，他們都是鳳凰，我主張...",
+        issue: "Q8.現代青年壓力大，被生活逼到失去戰鬥力，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
         newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
         date: "",
-        detail: "宋楚瑜公布的十大政見當中，在新住民政策方面，主張設立新住民委員會，協助新住民融入台灣社會，照顧其新住民子女教育及就業。"
+        detail: "宋楚瑜在2016年參選總統時，曾經提到中央政府編列上百億給台北市舉辦世大運、花博，卻讓學生背負一年2億到3億元的學貸，因此若他當選將會全面取消學貸利息，並給「青年兩桶金」。而今年11月5日，親民黨曾在官網發布該篇訊息，並表示「好的政策歡迎採用」。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -312,13 +337,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/11/23",
         detail: "瞄準31.8萬名首投族，總統蔡英文近來除了和網紅合作，衝高網路聲量，也提出不少青年政策，要積極搶攻年輕選票。<br>蔡英文「2020台灣要贏」競總官網上列出多項政策，包括「職涯好發展，學貸減壓再活化」，也針對單身青年、新婚夫妻及育有未成年子女家庭提出「租金補貼」。"
     },
+
+    //9
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q8.現代青年壓力大，被生活逼到失去戰鬥力，我主張...",
+        issue: "Q9.政府拚經濟，人民才能活下去，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/overview/POL",
-        date: "",
-        detail: "宋楚瑜在2016年參選總統時，曾經提到中央政府編列上百億給台北市舉辦世大運、花博，卻讓學生背負一年2億到3億元的學貸，因此若他當選將會全面取消學貸利息，並給「青年兩桶金」。而今年11月5日，親民黨曾在官網發布該篇訊息，並表示「好的政策歡迎採用」。"
+        newsrc: "https://www.ftvnews.com.tw/news/detail/2019B13W0012",
+        date: " <i class='far fa-clock'></i> 2019/11/13",
+        detail: "宋楚瑜公布的十大政見當中，在經濟政策方面主張，厚植台灣經濟，制定專法支援台商建立海外產業聚落；鼓勵新創研發，扶植新創產業；持續用力推動簽署CPTPP及RCEP等區域經濟協議。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -336,13 +363,15 @@ topic.detail = [
         date: " <i class='far fa-clock'></i> 2019/12/20",
         detail: "台灣今年前三季經濟成長強勁，經濟成長率預估表現將居亞洲四小龍之首；另外台股指數也突破12000點，站上29年新高。對於經濟表現亮眼，總統蔡英文提出下一階段財經目標與政策，將落實投資台灣三大投資方案，建構台灣成為亞洲高階製造及研發中心等，重新擦亮MIT的招牌。"
     },
+
+    //10
     {
         path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q9.政府拚經濟，人民才能活下去，我主張...",
+        issue: "Q10.台灣房價高，青年不吃不喝幾十年也買不起，為了落實居住正義，我主張...",
         source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/detail/2019B13W0012",
-        date: " <i class='far fa-clock'></i> 2019/11/13",
-        detail: "宋楚瑜公布的十大政見當中，在經濟政策方面主張，厚植台灣經濟，制定專法支援台商建立海外產業聚落；鼓勵新創研發，扶植新創產業；持續用力推動簽署CPTPP及RCEP等區域經濟協議。"
+        newsrc: "https://www.ftvnews.com.tw/news/detail/2019C11W0058",
+        date: " <i class='far fa-clock'></i> 2019/12/04",
+        detail: "親民黨先前合體郭家軍，提出進軍國會六大政見，其中之一包括「人人買得起，工者有其屋」。<br>本次大選進入親民黨不分區立委第三名的宣明智，先前發出公開信提到，「工者有其屋」透過修改現行法令，由政府提供土地、企業部分出資、建商營造，於企業週邊興建生活機能完善、科技化智慧住宅，滿足進入職場國人擁有平價購屋、換屋權之基本生存權。"
     },
     {
         path: "https://i.imgur.com/8fJwWBe.png",
@@ -359,14 +388,6 @@ topic.detail = [
         newsrc: "https://www.ftvnews.com.tw/news/detail/2019B22I17M1",
         date: " <i class='far fa-clock'></i> 2019/11/22",
         detail: "關於居住正義議題，總統蔡英文四年前提出「安心住宅計畫」，目標8年20萬戶社會住宅，包括直接興建12萬戶及包租代管8萬戶。而下個任期，蔡陣營也喊出「社會住宅繼續蓋」，除了目前可入住與施工中的社會住宅已經有3萬戶，2020年預計動工1萬5千戶，2021至2024年每年再動工2萬戶，達成興建12萬戶社會住宅目標。<br>「包租代管大力推」部分，目前已協助5000多戶家庭，2020年從6都擴大至12縣市辦理2萬戶，2021至2024年將以每年1萬5000戶的速度累積，達成8萬戶目標。"
-    },
-    {
-        path: "https://i.imgur.com/pLgckHJ.png",
-        issue: "Q10.台灣房價高，青年不吃不喝幾十年也買不起，為了落實居住正義，我主張...",
-        source: "<i class='fas fa-feather-alt'></i> 新聞連結",
-        newsrc: "https://www.ftvnews.com.tw/news/detail/2019C11W0058",
-        date: " <i class='far fa-clock'></i> 2019/12/04",
-        detail: "親民黨先前合體郭家軍，提出進軍國會六大政見，其中之一包括「人人買得起，工者有其屋」。<br>本次大選進入親民黨不分區立委第三名的宣明智，先前發出公開信提到，「工者有其屋」透過修改現行法令，由政府提供土地、企業部分出資、建商營造，於企業週邊興建生活機能完善、科技化智慧住宅，滿足進入職場國人擁有平價購屋、換屋權之基本生存權。"
     }
 
 ];
@@ -374,11 +395,12 @@ topic.detail = [
 // 題目生成
 var html_topic = "<h1>{{num}}</h1><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><p id='ans1'>{{ans1}}</p></div><div class='block' id='{{res2}}'><p id='ans2'>{{ans2}}</p></div><div class='block' id='{{res3}}'><p id='ans3'>{{ans3}}</p></div></div>";
 
+
 // 結果
 var html_topic_result = "<h1>結果<i class='fab fa-facebook'></i></h1><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas><p>單位：％</p></div></div>";
 
 // 清單
-var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/pLgckHJ.png'/><p>{{ans3}}</p></div>";
+var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/pLgckHJ.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans3}}</p></div>";
 
 // 詳解
 var html_topic_detail = "<div class='box flex'><div class='face'><img src='{{path}}'/></div><div class='issue'><h4>{{issue}}</h4><a href='{{newsrc}}' target='_blank' class='source'><div class='flex'><div class='text'><p>{{source}}</p><p>{{date}}</p></div></div></a></div></div><hr class='hr' /><div class='box'><p>{{detail}}</p><div class='btn' id='prev'>回上頁</div></div>";
@@ -387,7 +409,56 @@ var html_topic_detail = "<div class='box flex'><div class='face'><img src='{{pat
 $("#enter").click(function () {
     $("#cover").hide("slow");
     show_topic();
+});
+
+$(document).on("click", ".block", function () {
+    fake_sort();
 })
+//fake_sort
+function fake_sort() {
+    $("#1").addClass("sort2");
+    $("#2").addClass("sort3");
+    $("#3").addClass("sort1");
+
+    $("#4").addClass("sort2");
+    $("#5").addClass("sort1");
+    $("#6").addClass("sort3");
+
+    $("#7").addClass("sort3");
+    $("#8").addClass("sort2");
+    $("#9").addClass("sort1");
+
+    $("#10").addClass("sort1");
+    $("#11").addClass("sort2");
+    $("#12").addClass("sort3");
+
+    $("#13").addClass("sort2");
+    $("#14").addClass("sort1");
+    $("#15").addClass("sort3");
+
+    $("#16").addClass("sort3");
+    $("#17").addClass("sort2");
+    $("#18").addClass("sort1");
+
+    $("#19").addClass("sort2");
+    $("#20").addClass("sort3");
+    $("#21").addClass("sort1");
+
+    $("#22").addClass("sort2");
+    $("#23").addClass("sort3");
+    $("#24").addClass("sort1");
+
+    $("#25").addClass("sort1");
+    $("#26").addClass("sort3");
+    $("#27").addClass("sort2");
+
+    $("#28").addClass("sort3");
+    $("#29").addClass("sort1");
+    $("#30").addClass("sort2");
+
+}
+
+
 
 //顯示題目
 var i = -1;
@@ -406,82 +477,31 @@ function show_topic() {
             .replace("{{res3}}", item.res3)
         ;
     $("#section").append(html_item);
-
 }
-//顯示題目＿韓蔡平手
-function show_topic_1() {
-    $("#section,#section_list").html("");
-    var item = topic.list[9];
-    var html_item =
-        html_topic.replace("{{num}}", item.num)
-            .replace("{{issue}}", item.issue)
-            .replace("{{ans1}}", item.ans1)
-            .replace("{{ans2}}", item.ans2)
-            // .replace("{{ans3}}", item.ans3)
-            .replace("{{res1}}", item.res1)
-            .replace("{{res2}}", item.res2)
-        // .replace("{{res3}}", item.res3)
-        ;
-    $("#section").append(html_item);
-    $(".layout>.block:nth-child(3)").css("display", "none")
 
-}
-//顯示題目＿韓宋平手
-function show_topic_2() {
-    $("#section,#section_list").html("");
-    var item = topic.list[9];
-    var html_item =
-        html_topic.replace("{{num}}", item.num)
-            .replace("{{issue}}", item.issue)
-            .replace("{{ans1}}", item.ans1)
-            // .replace("{{ans2}}", item.ans2)
-            .replace("{{ans3}}", item.ans3)
-            .replace("{{res1}}", item.res1)
-            // .replace("{{res2}}", item.res2)
-            .replace("{{res3}}", item.res3)
-        ;
-    $("#section").append(html_item);
-    $(".layout>.block:nth-child(2)").css("display", "none")
 
-}
-//顯示題目＿蔡宋平手
-function show_topic_3() {
-    $("#section,#section_list").html("");
-    var item = topic.list[9];
-    var html_item =
-        html_topic.replace("{{num}}", item.num)
-            .replace("{{issue}}", item.issue)
-            // .replace("{{ans1}}", item.ans1)
-            .replace("{{ans2}}", item.ans2)
-            .replace("{{ans3}}", item.ans3)
-            // .replace("{{res1}}", item.res1)
-            .replace("{{res2}}", item.res2)
-            .replace("{{res3}}", item.res3)
-        ;
-    $("#section").append(html_item);
-    $(".layout>.block:nth-child(1)").css("display", "none")
-
-}
 
 // 選擇答案及累計選誰次數
 var countA = 0, countB = 0, countC = 0, count = 0;
-
+//宋
 $(document).on("click", "#ans1", function () {
     let id = $(this).parent().attr("id");
     answer.push(id);
     countA++;
     count = countA + countB + countC;
     judge(count);
-})
 
+})
+//韓
 $(document).on("click", "#ans2", function () {
     let id = $(this).parent().attr("id");
     answer.push(id);
     countB++;
     count = countA + countB + countC;
     judge(count);
-})
 
+})
+//蔡
 $(document).on("click", "#ans3", function () {
     let id = $(this).parent().attr("id");
     answer.push(id);
@@ -514,7 +534,7 @@ function judge(count) {
 // 計算結果
 function show_topic_result() {
     $("#section,#section_list").html("");
-    // 韓國瑜領先
+    // 宋領先
     if (countA > countB && countA > countC) {
         var item = topic.result[0];
         var html_item =
@@ -524,7 +544,7 @@ function show_topic_result() {
                 .replace("{{ps}}", item.ps)
             ;
     }
-    // 蔡英文領先
+    // 韓領先
     else if (countB > countA && countB > countC) {
         var item = topic.result[1];
         var html_item =
@@ -534,7 +554,7 @@ function show_topic_result() {
                 .replace("{{ps}}", item.ps)
             ;
     }
-    // 宋楚瑜領先
+    // 蔡領先
     else if (countC > countA && countC > countB) {
         var item = topic.result[2];
         var html_item =
@@ -554,9 +574,9 @@ function show_topic_result() {
     var dataPie = {
         datasets: [{
             data: [contA.toFixed(1), contB.toFixed(1), contC.toFixed(1)],
-            backgroundColor: ["rgba(53, 85, 132, 1)", "rgba(94, 153, 118, 1)", "rgba(198, 124, 74, 1)"]
+            backgroundColor: ["rgba(198, 124, 74, 1)", "rgba(53, 85, 132, 1)", "rgba(94, 153, 118, 1)"]
         }],
-        labels: ["韓國瑜", "蔡英文", "宋楚瑜"]
+        labels: ["宋楚瑜", "韓國瑜", "蔡英文",]
     };
     var options = {
         cutoutPercentage: 0,
@@ -612,6 +632,7 @@ function show_detail_list() {
             document.getElementById(answer[i]).classList.add("select");
         }
     }
+
     $("#section_list").append("<div class='btn' id='news_btn' target='_blank'>看更多新聞</div><div class='btn' id='prev_res'>回上頁</div>");
 }
 
@@ -654,3 +675,5 @@ $(document).on("click", "#news_btn", function () {
     window.open('https://www.ftvnews.com.tw/news/overview/POL');
 
 })
+
+
