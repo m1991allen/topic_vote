@@ -416,45 +416,45 @@ $(document).on("click", ".block", function () {
 })
 //fake_sort
 function fake_sort() {
-    $("#1").addClass("sort2");
+    $("#0").addClass("sort2");
+    $("#1").addClass("sort1");
     $("#2").addClass("sort3");
+
     $("#3").addClass("sort1");
-
     $("#4").addClass("sort2");
-    $("#5").addClass("sort1");
-    $("#6").addClass("sort3");
+    $("#5").addClass("sort3");
 
+    $("#6").addClass("sort1");
     $("#7").addClass("sort3");
     $("#8").addClass("sort2");
+
     $("#9").addClass("sort1");
-
-    $("#10").addClass("sort1");
+    $("#10").addClass("sort3");
     $("#11").addClass("sort2");
-    $("#12").addClass("sort3");
 
+    $("#12").addClass("sort3");
     $("#13").addClass("sort2");
     $("#14").addClass("sort1");
+
     $("#15").addClass("sort3");
-
-    $("#16").addClass("sort3");
+    $("#16").addClass("sort1");
     $("#17").addClass("sort2");
-    $("#18").addClass("sort1");
 
+    $("#18").addClass("sort1");
     $("#19").addClass("sort2");
     $("#20").addClass("sort3");
-    $("#21").addClass("sort1");
 
+    $("#21").addClass("sort1");
     $("#22").addClass("sort2");
     $("#23").addClass("sort3");
+
     $("#24").addClass("sort1");
+    $("#25").addClass("sort3");
+    $("#26").addClass("sort2");
 
-    $("#25").addClass("sort1");
-    $("#26").addClass("sort3");
     $("#27").addClass("sort2");
-
     $("#28").addClass("sort3");
     $("#29").addClass("sort1");
-    $("#30").addClass("sort2");
 
 }
 
