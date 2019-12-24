@@ -29,24 +29,6 @@ button {
     display: flex;
 }
 
-/* .container::before {
-    content: "";
-    background-image: url(https://i.imgur.com/p1ji1dY.png);
-    background-size: contain;
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    background-repeat: no-repeat;
-    position: fixed;
-    filter: blur(1px) grayscale(0.1);
-} */
-
-/* @media screen and (max-width:500px) {
-    .container::before {
-        filter: drop-shadow(0 0 0 black) blur(0px);
-    }
-} */
-
 .container main {
     position: relative;
     border: 10px double #000;
@@ -73,7 +55,7 @@ button {
     position: relative;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container main h1 {
         white-space: nowrap;
         font-size: 2.4rem;
@@ -90,7 +72,7 @@ button {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container main h3 {
         width: 90%;
     }
@@ -175,7 +157,7 @@ button {
     display: flex;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container main #section .flex {
         display: flex;
     }
@@ -187,7 +169,7 @@ button {
     align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container main #section .flex .face {
         display: none;
     }
@@ -198,7 +180,7 @@ button {
     text-align: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container main #section .flex .issue {
         width: 100%;
     }
@@ -208,7 +190,7 @@ button {
     display: flex;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .container main #section_list .flex {
         display: block;
     }
@@ -233,7 +215,7 @@ button {
     animation: hover 1s infinite;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .container main .btn:hover {
         border: 2px solid #000;
         background-color: #e6e2d8b3;
@@ -261,7 +243,7 @@ button {
     /* background-color: #eee; */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout {
         display: block;
     }
@@ -279,7 +261,7 @@ button {
     bottom: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout .presd {
         display: none;
     }
@@ -291,7 +273,7 @@ button {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout .whoru {
         width: 80%;
     }
@@ -308,7 +290,7 @@ button {
     width: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout .chart {
         width: 100%;
         padding: 5%;
@@ -336,7 +318,7 @@ button {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout .block {
         width: 95%;
         height: auto;
@@ -363,7 +345,7 @@ button {
     left: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout .block img {
         display: none;
     }
@@ -375,7 +357,7 @@ button {
     width: 30%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .layout .block:hover {
         width: 95%;
         background-color: rgba(230, 226, 216, 0.7);
@@ -419,7 +401,7 @@ hr.hr {
     padding: 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .box .face {
         display: none;
     }
@@ -447,7 +429,7 @@ hr.hr {
     font-size: 16px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .box .source {
         display: inline-block;
     }
@@ -506,7 +488,7 @@ hr.hr {
     content: "分享";
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .fab::after {
         display: none;
     }

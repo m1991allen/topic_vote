@@ -679,5 +679,5 @@ $(document).on("click", "#news_btn", function () {
 
 //分享
 $(document).on("click", "#share", function () {
-    window.open('http://www.facebook.com/share.php?u=https://m1991allen.github.io/topic_vote/'.concat(encodeURIComponent(location.href)), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=400")
+    window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=400")
 })
