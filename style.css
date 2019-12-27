@@ -508,3 +508,9 @@ hr.hr {
 .sort3 {
     order: 3;
 }
+
+@media screen and (max-width:600px) {
+    #div-gpt-ad-1577422463390-0 {
+        display: none;
+    }
+}
