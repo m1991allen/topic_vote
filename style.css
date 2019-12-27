@@ -517,7 +517,7 @@ hr.hr {
 
 @media screen and (max-width:600px) {
     #div-gpt-ad-1577441687262-0 {
-        display: none;
+        display: block;
     }
     #div-gpt-ad-1577441634203-0 {
         display: none;
