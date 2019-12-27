@@ -395,17 +395,22 @@ topic.detail = [
 
 ];
 
+
 // 題目生成
 var html_topic = "<h1>{{num}}</h1><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><p id='ans1'>{{ans1}}</p></div><div class='block' id='{{res2}}'><p id='ans2'>{{ans2}}</p></div><div class='block' id='{{res3}}'><p id='ans3'>{{ans3}}</p></div></div>";
 
 // 結果
-var html_topic_result = "<h1>結果</h1><div id='{{share}}' class='fab fa-facebook'></div><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas></div></div>";
+var html_topic_result = "<h1>結果</h1><div id='{{share}}' class='fab fa-facebook'></div><div><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}' /></div><div class='whoru'><h1><span style='font-size: 1.5rem;'>原來我是... </span>{{name}}</h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas></div></div></div>";
 
 // 清單
 var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/pLgckHJ.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans3}}</p></div>";
 
 // 詳解
 var html_topic_detail = "<div class='box flex'><div class='face'><img src='{{path}}'/></div><div class='issue'><h4>{{issue}}</h4><a href='{{newsrc}}' target='_blank' class='source'><div class='flex'><div class='text'><p>{{source}}</p><p>{{date}}</p></div></div></a></div></div><hr class='hr' /><div class='box'><p>{{detail}}</p><div class='btn' id='prev'>回上頁</div></div>";
+
+
+// <!-- /34018536/ftv_all_97090_1 --><div id='div-gpt-ad-1577422463390-0' style='width: 970px; height: 90px; margin: auto;'><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1577422463390-0'); });</script></div>
+
 
 // 首頁進入
 $("#enter").click(function () {
@@ -460,8 +465,6 @@ function fake_sort() {
     $("#29").addClass("sort1");
 
 }
-
-
 
 //顯示題目
 var i = -1;
