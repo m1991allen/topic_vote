@@ -111,17 +111,20 @@ topic.result = [
     {
         path: "https://i.imgur.com/6YjJzx3.png",
         name: "宋楚瑜",
-        slogan: "藍綠推兩邊，人民擺中間<br>終局之戰中我是獨孤求敗！"
+        slogan: "藍綠推兩邊，人民擺中間<br>終局之戰中我是獨孤求敗！",
+        share: "james-c-y-soong"
     },
     {
-        path: "https://i.imgur.com/HS9CTJa.png",
+        path: "https://i.imgur.com/EjWoFp3.png",
         name: "韓國瑜",
-        slogan: "台灣安全，人民有錢<br>韓粉們請隨我一起出征！"
+        slogan: "台灣安全，人民有錢<br>韓粉們請隨我一起出征！",
+        share: "daniel-han"
     },
     {
         path: "https://i.imgur.com/gBUWPmJ.png",
         name: "蔡英文",
-        slogan: "2020台灣要贏<br>一同加入辣台派守護台灣！"
+        slogan: "2020台灣要贏<br>一同加入辣台派守護台灣！",
+        share: "tsai-ing-wen"
     },
 
 ];
@@ -397,7 +400,7 @@ var html_topic = "<h1>{{num}}</h1><h3>{{issue}}</h3><div class='layout'><div cla
 
 
 // 結果
-var html_topic_result = "<h1>結果<i class='fab fa-facebook' id='share'></i></h1><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas><p>單位：％</p></div></div>";
+var html_topic_result = "<h1>結果</h1><div id='{{share}}' class='fab fa-facebook'></div><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}'/></div><div class='whoru'><h1>{{name}}</h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas></div></div>";
 
 // 清單
 var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/pLgckHJ.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans3}}</p></div>";
@@ -481,6 +484,7 @@ function show_topic() {
 }
 
 
+
 //顯示題目＿宋韓平手
 function show_topic_2() {
     $("#section,#section_list").html("");
@@ -539,6 +543,7 @@ function show_topic_3() {
 
 }
 
+
 // 選擇答案及累計選誰次數
 var countA = 0, countB = 0, countC = 0, count = 0;
 //宋
@@ -567,6 +572,10 @@ $(document).on("click", "#ans3", function () {
     count = countA + countB + countC;
     judge(count);
 })
+
+
+
+
 
 // 判斷
 function judge(count) {
@@ -600,6 +609,7 @@ function show_topic_result() {
                 .replace("{{slogan}}", item.slogan)
                 .replace("{{name}}", item.name)
                 .replace("{{ps}}", item.ps)
+                .replace("{{share}}", item.share)
             ;
     }
     // 韓領先
@@ -610,6 +620,7 @@ function show_topic_result() {
                 .replace("{{slogan}}", item.slogan)
                 .replace("{{name}}", item.name)
                 .replace("{{ps}}", item.ps)
+                .replace("{{share}}", item.share)
             ;
     }
     // 蔡領先
@@ -620,6 +631,7 @@ function show_topic_result() {
                 .replace("{{slogan}}", item.slogan)
                 .replace("{{name}}", item.name)
                 .replace("{{ps}}", item.ps)
+                .replace("{{share}}", item.share)
             ;
     }
     $("#section").append(html_item);
@@ -735,6 +747,16 @@ $(document).on("click", "#news_btn", function () {
 })
 
 //分享
-$(document).on("click", "#share", function () {
-    window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)), "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=400")
+
+$(document).on("click", "#james-c-y-soong", function () {
+    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_james-c-y-soong.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
 })
+
+$(document).on("click", "#daniel-han", function () {
+    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_daniel-han.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
+})
+
+$(document).on("click", "#tsai-ing-wen", function () {
+    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_tsai-ing-wen.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
+})
+

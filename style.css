@@ -57,8 +57,7 @@ button {
 
 @media screen and (max-width: 600px) {
     .container main h1 {
-        white-space: nowrap;
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 }
 
@@ -471,7 +470,7 @@ hr.hr {
 
 .fab {
     position: absolute;
-    top: 0;
+    top: 46px;
     right: 10%;
     cursor: pointer;
     font-size: 25px;
@@ -489,6 +488,7 @@ hr.hr {
 .fab::after {
     content: "分享";
     font-family: "cwTeXMing", "微軟正黑體", serif, Helvetica;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 600px) {
