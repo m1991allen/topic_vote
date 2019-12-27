@@ -91,12 +91,12 @@ button {
 
 .container main #cover .cover_img .face {
     width: 30%;
-    margin: 5% auto;
+    margin: 10px auto;
 }
 
 .container main #cover .cover_img .face:nth-child(1) img {
     width: 100%;
-    max-width: 250px;
+    max-width: 230px;
     animation: move1 2s infinite;
     animation-delay: .5s;
     display: inline-block;
@@ -104,14 +104,14 @@ button {
 
 .container main #cover .cover_img .face:nth-child(2) img {
     width: 100%;
-    max-width: 250px;
+    max-width: 230px;
     animation: move2 3s infinite;
     display: inline-block;
 }
 
 .container main #cover .cover_img .face:nth-child(3) img {
     width: 100%;
-    max-width: 250px;
+    max-width: 230px;
     animation: move3 2s infinite;
     display: inline-block;
 }
@@ -200,7 +200,7 @@ button {
     border: 2px solid #000;
     border-radius: 5px;
     width: 130px;
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     text-align: center;
     margin-bottom: 10px;
@@ -508,6 +508,8 @@ hr.hr {
 .sort3 {
     order: 3;
 }
+
+/* google ads */
 
 @media screen and (max-width:600px) {
     #div-gpt-ad-1577422463390-0 {

@@ -573,9 +573,6 @@ $(document).on("click", "#ans3", function () {
 })
 
 
-
-
-
 // 判斷
 function judge(count) {
     if (count == 9) {
