@@ -21,6 +21,7 @@ button {
 
 .container {
     width: 100%;
+    height: 100vh;
     padding: 10px;
     box-sizing: border-box;
     justify-content: center;
@@ -344,6 +345,12 @@ button {
     left: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .layout .block img {
+        display: none;
+    }
+}
+
 .layout .block:hover {
     background-color: black;
     color: white;
@@ -502,21 +509,17 @@ hr.hr {
     order: 3;
 }
 
-.name {
-    white-space: nowrap;
-}
-
 /* google ads */
 
-#div-gpt-ad-1577441634203-0 {
+/* #div-gpt-ad-1577441634203-0 {
     display: none;
 }
 
 @media screen and (max-width:600px) {
-    #div-gpt-ad-1577441634203-0 {
-        display: block;
+    #div-gpt-ad-1577441687262-0 {
+        display: none;
     }
-    #div-gpt-ad-1577459854798-0 {
+    #div-gpt-ad-1577441634203-0 {
         display: none;
     }
 }
@@ -525,4 +528,4 @@ hr.hr {
     #div-gpt-ad-1577441634203-0 {
         display: none;
     }
-}
+} */

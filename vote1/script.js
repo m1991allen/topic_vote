@@ -400,7 +400,7 @@ topic.detail = [
 var html_topic = "<h1>{{num}}</h1><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><p id='ans1'>{{ans1}}</p></div><div class='block' id='{{res2}}'><p id='ans2'>{{ans2}}</p></div><div class='block' id='{{res3}}'><p id='ans3'>{{ans3}}</p></div></div>";
 
 // 結果
-var html_topic_result = "<h1>結果</h1><div id='{{share}}' class='fab fa-facebook'></div><div><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}' /></div><div class='whoru'><h1><span style='font-size: 1.5rem;'>原來我是... </span><span class='name'>{{name}}</span></h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas></div></div></div>";
+var html_topic_result = "<h1>結果</h1><div id='{{share}}' class='fab fa-facebook'></div><div><div class='line'></div><div class='layout'><div class='presd'><img src='{{path}}' /></div><div class='whoru'><h1><span style='font-size: 1.5rem;'>原來我是... </span>{{name}}</h1><h2>{{slogan}}</h2><div class='btn' id='review_btn'>看政見</div><div class='btn' onClick='window.location.reload();'>再選一次</div></div><div class='chart'><canvas id='myChart' width='200' height='200'></canvas></div></div></div>";
 
 // 清單
 var html_topic_list = "<h1>{{num}}</h1><div class='line'></div><h3>{{issue}}</h3><div class='layout'><div class='block' id='{{res1}}'><img src='https://i.imgur.com/pLgckHJ.png'/><p>{{ans1}}</p></div><div class='block' id='{{res2}}'><img src='https://i.imgur.com/8fJwWBe.png'/><p>{{ans2}}</p></div><div class='block' id='{{res3}}'><img src='https://i.imgur.com/aADsiHp.png'/><p>{{ans3}}</p></div>";
