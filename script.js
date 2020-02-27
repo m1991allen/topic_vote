@@ -745,6 +745,11 @@ $(document).on("click", "#news_btn", function () {
 
 })
 
+$(document).on("click", ".link", function () {
+    window.open('https://www.ftvnews.com.tw/2020vote/index.aspx');
+
+})
+
 //分享
 
 $(document).on("click", "#james-c-y-soong", function () {
@@ -759,3 +764,12 @@ $(document).on("click", "#tsai-ing-wen", function () {
     window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_tsai-ing-wen.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
 })
 
+
+$(function () {
+    $(".linktohome>img").mouseover(function () {
+        $(".linktohome>.link").show(500);
+    })
+    $(".linktohome").mouseleave(function () {
+        $(".linktohome>.link").hide(500);
+    })
+});
