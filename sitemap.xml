@@ -1,17 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-news/0.9 http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd">
-  <url>
-    <loc>https://www.ftvnews.com.tw/topic/vote/index.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>民視新聞網</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:genres>PressRelease</news:genres>
-      <news:publication_date>2019-08-15</news:publication_date>
-      <news:title>【2020一日總統測驗】快來測測看｜大選專題｜民視新聞網</news:title>
-      <news:keywords>投票 總統候選人 選票 造勢 凍蒜 政見 立委 立法委員 分區 不分區 總統大選 2020總統大選 下架 韓國瑜 蔡英文 宋楚瑜 余湘 賴清德 張善政 </news:keywords>
-      <news:stock_tickers />
-    </news:news>
-  </url>
+  
 </urlset>
