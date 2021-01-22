@@ -753,15 +753,15 @@ $(document).on("click", ".link", function () {
 //分享
 
 $(document).on("click", "#james-c-y-soong", function () {
-    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_james-c-y-soong.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
+    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topics/vote/share_james-c-y-soong.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
 })
 
 $(document).on("click", "#daniel-han", function () {
-    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_daniel-han.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
+    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topics/vote/share_daniel-han.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
 })
 
 $(document).on("click", "#tsai-ing-wen", function () {
-    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topic/vote/share_tsai-ing-wen.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
+    window.open("http://www.facebook.com/share.php?u=https://www.ftvnews.com.tw/topics/vote/share_tsai-ing-wen.html", "_blank", "toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes, width=600, height=315")
 })
 
 
